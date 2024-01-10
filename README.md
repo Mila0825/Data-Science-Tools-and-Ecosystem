@@ -76,18 +76,37 @@ After completed the above tasks, you should be able to find some geographical pa
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Build an Interactive Dashboard with Ploty Dash
 
+In this lab, you will be building a Plotly Dash application for users to perform interactive visual analytics on SpaceX launch data in
+real-time.
+
+This dashboard application contains input components such as a dropdown list and a range slider to
+interact with a pie chart and a scatter point chart. You will be guided to build this dashboard application via the following tasks:
+
+TASK 1: Add a Launch Site Drop-down Input Component
+TASK 2: Add a callback function to render success-pie-chart based on selected site dropdown
+TASK 3: Add a Range Slider to Select Payload
+TASK 4: Add a callback function to render the success-payload-scatter-chart scatter plot
+Note:Please take screenshots of the Dashboard and save them. Further upload your notebook to github.
+
+The github url and the screenshots are later required in the presentation slides.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Space X advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because Space X can reuse the first stage. Therefore if we can determine if the first stage will land, we can determine the cost of a launch. This information can be used if an alternate company wants to bid against space X for a rocket launch. In this lab, you will create a machine learning pipeline to predict if the first stage will land given the data from the preceding labs.
 
 
+6. SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite.ipynb
 
 
+Objectives
+Perform exploratory Data Analysis and determine Training Labels
 
+create a column for the class
+Standardize the data
+Split into training data and test data
+-Find best Hyperparameter for SVM, Classification Trees and Logistic Regression
 
-
-
-
-
-
-
+Find the method performs best using test data
 
 
 
